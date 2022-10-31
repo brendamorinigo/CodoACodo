@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 16px;
+}
+.navbar{
+border-bottom: 0.5px solid rgb(186, 206, 249);
+}
+  
+.btn-outline-dark{
+    margin-right: 7px;
+}
+a:hover{
+    background-color: rgb(121, 133, 134);
+}
+
+.container-img{
+    height: 31.25rem;
+    background-image: url(/IMG/inmob.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.container-buscador{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+.btn-warning{
+    margin-left: 5px;
+}
+
+.container{
+    background-color: blueviolet;
+    width: 500px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+} 
+
+input{
+    width:60%;
+} 
+.buscador{
+    display: flex;
+    flex-direction: row;
+}
+.container-footer{
+    height: 100%;
+    background-color: rgb(91, 170, 255);
+    display: flex;
+    justify-content: center;
+   padding: 3.125rem;
+}
+
+.icon{
+    margin: 2px;
+}
+.card-index a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(182, 228, 235);
+}
+.card-index{
+
+    border: 0.3px solid rgb(229, 227, 227);
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 5px 7px rgb(225, 222, 222);
+}
+.container-card{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+/* API */
+.api{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+}
+.containerCambio{
+    border-radius: 5px;
+    background-color: rgb(108, 190, 248);
+    margin: 2px;
+    border: 0.2px solid rgb(186, 180, 180);
+    padding: 1px;
+    text-align: center;
+}
+
+.cambios{
+    margin-top: 10px;
+    text-align: center;
+}

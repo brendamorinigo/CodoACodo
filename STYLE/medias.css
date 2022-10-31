@@ -1,0 +1,40 @@
+@media (max-width: 600px)
+{   .container-card{
+        flex-direction: column;
+        color: blue;
+        width: auto;
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;}
+    .card-index{
+        width: 300px;
+    }
+    .container-img{
+        width: 100%;
+        height: auto;
+        background-image: url(/IMG/inmob.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+
+    input{ 
+        width: 200px;
+    }
+    .buscador{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 400px){
+    .api{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .containerCambio{
+        font-size: 6px;
+        background-color: aqua;
+
+    }
+}

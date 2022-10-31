@@ -1,0 +1,102 @@
+.contenedor {
+  font-size: 20px;
+  display: grid;
+  column-gap: 3px;
+  row-gap: 3px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 0.5fr;
+
+  grid-template-areas:
+    "tel        tel     mail   mail"
+    "form       form    ubic    ubic";
+}
+
+.item2 {
+    margin: 5px;
+  padding-top: 1.25rem;
+  grid-area: tel;
+  text-align: center; 
+  border: 0.3px solid rgb(130, 128, 128) ;
+  border-radius: .625rem;
+}
+
+.item3 {
+    margin: 5px;
+  padding-top: 1.25rem;
+  grid-area: mail;
+  text-align: center;
+  border-radius: .625rem;
+  border: 0.3px solid rgb(130, 128, 128) ;
+}
+
+.item4 {
+    margin: 5px;
+  padding-top: 1.25rem;
+  grid-area: form;
+  text-align: center;
+  text-transform: initial;
+  border-radius: .625rem;
+  border: 0.3px solid rgb(130, 128, 128) ;
+}
+
+.item5 {
+    margin: 5px;
+  padding-top: 1.25rem;
+  grid-area: ubic;
+  text-align: center;
+  border-radius: .625rem;
+  border: 0.3px solid rgb(130, 128, 128) ;
+}
+
+form {
+  background: #fff;
+  padding: 40px 0;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  margin-bottom: 15px;
+  width: 60%;
+  font-style: oblique white;
+  background: none;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid rgb(12, 15, 12);
+}
+
+input:hover {
+  background-color: rgb(175, 220, 241);
+}
+
+textarea {
+  width: 50%;
+  height: 300px;
+}
+
+ /* ACA */ 
+
+ label{
+  color: var(red);
+  font-size: 16px;  
+  transition: 0.5s ease all;
+  pointer-events: none;
+}  
+
+ button{
+  background: #dc45c8;
+  background: -webkit-linear-gradient(to right, #4795fc, #f3f4f7);
+  background: linear-gradient(to right, #3509f7, #050792);
+  border: none;
+  width: 50%;
+  color: #fff;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 5px;
+} 
+ 

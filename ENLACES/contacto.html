@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="logosinfondo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/STYLE/contacto.css" />
+    <link rel="stylesheet" href="/STYLE/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="/IMG/logo.png" alt="" width="50px" height="50px" />
+          <a class="navbar-brand" href="/index.html">INMOBILIARIA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/ENLACES/ventas.html"
+                  >VENTAS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/ENLACES/alquileres.html"
+                  >ALQUILERES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/ENLACES/contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="contenedor">
+      <div class="item item2">
+        <img src="/IMG/telefono.gif" alt="telefono" width="10%" />
+        <h3>Teléfonos</h3>
+        <p>261-5679846 / 261-3456798</p>
+      </div>
+
+      <div class="item item3">
+        <img src="/IMG/mensaje.gif" alt="Mail" width="10%" />
+        <h3>Mail</h3>
+        <p>Terrapropiedades@colegioinmobiliariomza.com.ar</p>
+      </div>
+
+      <div class="item item4">
+        <img
+          src="/IMG/lista-de-verificacion.gif"
+          alt="Formulario"
+          width="10%"
+        />
+        <h3>Envianos un mensaje</h3>
+        <p>Completá el formulario y nos contactaremos a la brevedad.</p>
+        <form action="https://formsubmit.co/brendaden767@gmail.com" method="POST">
+          <label for="Nombre"> Nombre </label>
+          <input type="text" id="Nombre" required />
+          <label for="Apellido"> Apellido </label>
+          <input type="text" id="Nombre" required />
+          <label for="email"> Email </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Introduzca un email activo"
+            required
+          />
+          <label for="telefono"> Teléfono </label>
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Introduzca el código de área y a continuación su telefono"
+            required
+          />
+          <label for="consulta"> Consulta </label>
+          <textarea
+            name="consulta"
+            id="consulta"
+            cols="30"
+            rows="20"
+            required
+          ></textarea>
+          <button>Enviar</button>
+        </form>
+      </div>
+
+      <div class="item item5">
+        <img src="/IMG/alrededor-del-mundo.gif" alt="Ubicación" width="10%" />
+        <h3>Ubicación</h3>
+        <p>Avenida Champagnat 2006, Mendoza, Argentina</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.001562436425!2d-68.8378669857193!3d-32.87167808094348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08e79170febb%3A0x5a5438ec6c901393!2sTerra%20Propiedades!5e0!3m2!1ses!2sar!4v1665605806357!5m2!1ses!2sar"
+          width="250"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer class="container-footer">
+      <div class="iconos">
+        <img
+          class="icon"
+          src="/IMG/facebook.png"
+          alt=""
+          width="32px"
+          height="32px"
+        />
+        <img
+          class="icon"
+          src="/IMG/instagram.png"
+          alt=""
+          width="32px"
+          height="32px"
+        />
+        <img class="icon" src="/IMG/whatsapp.png" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
